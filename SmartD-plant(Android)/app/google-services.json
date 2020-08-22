@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1034334281103",
+    "firebase_url": "https://findit-d7219.firebaseio.com",
+    "project_id": "findit-d7219",
+    "storage_bucket": "findit-d7219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034334281103:android:7d880e950a8ad156403ffa",
+        "android_client_info": {
+          "package_name": "com.example.findit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034334281103-3c3snbqqo24cf4inj1g9pjndtk27p2pi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findit",
+            "certificate_hash": "8f9c922698afeb0e49b6209010b530ce43d077ea"
+          }
+        },
+        {
+          "client_id": "1034334281103-2jp3lsi8tskcac309jau7kva57rba832.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8E_kEoqoKQQUlUX6CGESo8iNWbC0bvMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034334281103-2jp3lsi8tskcac309jau7kva57rba832.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
