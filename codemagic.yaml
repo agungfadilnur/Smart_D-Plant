@@ -8,7 +8,6 @@ workflows:
       java: 17
     scripts:
       - name: Build APK
-        script: ./gradlew assembleDebug
+        script: cd "SmartD-plant(Android)" && ./gradlew assembleDebug
     artifacts:
-      - app/build/outputs/**/*.apk
-
+      - SmartD-plant(Android)/app/build/outputs/**/*.apk
