@@ -5,7 +5,7 @@ workflows:
     environment:
       vars:
         BUILD_TYPE: "debug"
-      java: 17
+      java: 11
     scripts:
       - name: Build APK
         script: |
