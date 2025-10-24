@@ -1,3 +1,14 @@
-git add codemagic.yaml
-git commit -m 'Add first workflow'
-git push
+workflows:
+  android-build:
+    name: Build Android App
+    max_build_duration: 60
+    environment:
+      vars:
+        BUILD_TYPE: "debug"
+      java: 17
+    scripts:
+      - name: Build APK
+        script: ./gradlew assembleDebug
+    artifacts:
+      - app/build/outputs/**/*.apk
+
